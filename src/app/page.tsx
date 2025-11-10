@@ -31,7 +31,7 @@ function Hero() {
           Turn every piece of feedback into a clear next move.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Confyd listens, analyzes, and tells you what's really going on; the wins, the pain points, and the patterns that matter.
+            Confyd listens, analyzes, and tells you what&rsquo;s really going on; the wins, the pain points, and the patterns that matter.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Get started</Button>
