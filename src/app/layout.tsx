@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     template: '%s - Radiant',
-    default: 'Radiant - Close every deal',
+    default: 'Confyd - Turn every piece of feedback into a clear next move',
   },
 }
 
