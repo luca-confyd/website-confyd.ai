@@ -7,7 +7,7 @@ export function Screenshot({
   className,
 }: {
   width: number
-  height: number
+  height?: number
   src: string
   className?: string
 }) {
@@ -16,7 +16,8 @@ export function Screenshot({
       style={{ '--width': width, '--height': height } as React.CSSProperties}
       className={clsx(
         className,
-        'relative aspect-[var(--width)/var(--height)] [--radius:var(--radius-xl)]',
+        'relative [--radius:var(--radius-xl)]',
+        height && 'aspect-[var(--width)/var(--height)]',
       )}
     >
       <div className="absolute -inset-(--padding) rounded-[calc(var(--radius)+var(--padding))] shadow-xs ring-1 ring-black/5 [--padding:--spacing(2)]" />

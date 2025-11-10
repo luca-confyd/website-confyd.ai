@@ -20,11 +20,9 @@ function CallToAction() {
         Start gathering feedback and turn it into action today.
       </p>
       <div className="mt-6">
-        <a target="_blank" className="w-full sm:w-auto" href="https://app.confyd.co">
           <Button className="w-full sm:w-auto" href="https://app.confyd.co">
             Get started
           </Button>
-        </a>
       </div>
     </div>
   )
