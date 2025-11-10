@@ -5,7 +5,6 @@ import { Footer } from '@/components/footer'
 import { Gradient } from '@/components/gradient'
 import { Keyboard } from '@/components/keyboard'
 import { LinkedAvatars } from '@/components/linked-avatars'
-import { LogoCloud } from '@/components/logo-cloud'
 import { LogoCluster } from '@/components/logo-cluster'
 import { LogoTimeline } from '@/components/logo-timeline'
 import { Map } from '@/components/map'
@@ -50,7 +49,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          A snapshot of your entire sales pipeline.
+          A snapshot of your entire feedback landscape.
         </Heading>
         <Screenshot
           width={1216}
@@ -66,16 +65,16 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Subheading>Sales</Subheading>
+      <Subheading>Feedback Intelligence</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
+        Turn every voice into actionable insight.
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          description="See the full picture across every form, call, and comment. AI analyzes feedback to uncover patterns, sentiment, and priorities — so you know what&rsquo;s working and what needs attention."
           graphic={
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-size-[1000px_560px] bg-position-[left_-109px_top_-112px] bg-no-repeat" />
           }
@@ -84,8 +83,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          title="Hear what customers really mean"
+          description="Confyd listens to recorded calls, transcribes and interprets tone, emotion, and context — revealing the &lsquo;why&rsquo; behind every answer, not just the words they use."
           graphic={
             <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-size-[1100px_650px] bg-position-[left_-38px_top_-73px] bg-no-repeat" />
           }
@@ -94,8 +93,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Speed"
-          title="Built for power users"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          title="Built for fast decisions"
+          description="Collect feedback, run analysis, and surface insights automatically. From a day&rsquo;s worth of survey data or a week of customer calls — clarity arrives instantly."
           graphic={
             <div className="flex size-full pt-10 pl-10">
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
@@ -105,15 +104,15 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title="Capture feedback from every channel"
+          description="From AI voice agents to embedded forms, Confyd connects with your customers wherever they are — gathering meaningful input through real conversations or simple clicks."
           graphic={<LogoCluster />}
           className="lg:col-span-2"
         />
         <BentoCard
           eyebrow="Limitless"
-          title="Sell globally"
-          description="Radiant helps you sell in locations currently under international embargo."
+          title="Scales with every conversation"
+          description="Whether it&rsquo;s ten forms or a thousand calls, Confyd adapts seamlessly — analyzing at scale while preserving the human nuance behind every voice."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
@@ -128,15 +127,15 @@ function DarkBentoSection() {
       <Container>
         <Subheading dark>Outreach</Subheading>
         <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Customer outreach has never been easier.
+          Gathering feedback has never been easier.
         </Heading>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
             dark
             eyebrow="Networking"
-            title="Sell at the speed of light"
-            description="Our RadiantAI chat assistants analyze the sentiment of your conversations in real time, ensuring you're always one step ahead."
+            title="Conversations that actually listen"
+            description="AI voice agents talk to your customers naturally — understanding tone, pauses, and emotion — and summarizing every call into clear, actionable insight."
             graphic={
               <div className="h-80 bg-[url(/screenshots/networking.png)] bg-size-[851px_344px] bg-no-repeat" />
             }
@@ -146,8 +145,8 @@ function DarkBentoSection() {
           <BentoCard
             dark
             eyebrow="Integrations"
-            title="Meet leads where they are"
-            description="With thousands of integrations, no one will be able to escape your cold outreach."
+            title="Works where your customers already are"
+            description="Connect with tools like Slack, Gmail, Zoom, or WhatsApp to collect and centralize feedback from any channel — all flowing into one clear dashboard."
             graphic={<LogoTimeline />}
             // `overflow-visible!` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 overflow-visible! lg:col-span-2 lg:rounded-tr-4xl"
@@ -156,15 +155,15 @@ function DarkBentoSection() {
             dark
             eyebrow="Meetings"
             title="Smart call scheduling"
-            description="Automatically insert intro calls into your leads' calendars without their consent."
+            description="Automate follow-ups and call scheduling based on real feedback events — no manual reminders, no missed conversations."
             graphic={<LinkedAvatars />}
             className="lg:col-span-2 lg:rounded-bl-4xl"
           />
           <BentoCard
             dark
             eyebrow="Engagement"
-            title="Become a thought leader"
-            description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
+            title="Share what you&rsquo;ve learned"
+            description="Turn insights into stories worth sharing. Generate summaries, highlight key wins, and share clear updates with your team or clients in one click."
             graphic={
               <div className="h-80 bg-[url(/screenshots/engagement.png)] bg-size-[851px_344px] bg-no-repeat" />
             }
@@ -182,9 +181,9 @@ export default function Home() {
     <div className="overflow-hidden">
       <Hero />
       <main>
-        <Container className="mt-10">
+        {/* <Container className="mt-10">
           <LogoCloud />
-        </Container>
+        </Container> */}
         <div className="bg-linear-to-b from-white from-50% to-gray-100 py-32">
           <FeatureSection />
           <BentoSection />
