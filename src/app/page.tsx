@@ -50,7 +50,7 @@ function FeatureSection() {
     <div className="overflow-hidden">
       <Container className="pb-24">
         <Heading as="h2" className="max-w-3xl">
-          A snapshot of your entire sales pipeline.
+          A snapshot of your entire feedback landscape.
         </Heading>
         <Screenshot
           width={1216}
@@ -66,16 +66,16 @@ function FeatureSection() {
 function BentoSection() {
   return (
     <Container>
-      <Subheading>Sales</Subheading>
+      <Subheading>Feedback Intelligence</Subheading>
       <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
+        Turn every voice into actionable insight.
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          description="See the full picture across every form, call, and comment. AI analyzes feedback to uncover patterns, sentiment, and priorities — so you know what&rsquo;s working and what needs attention."
           graphic={
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-size-[1000px_560px] bg-position-[left_-109px_top_-112px] bg-no-repeat" />
           }
@@ -84,8 +84,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          title="Hear what customers really mean"
+          description="Confyd listens to recorded calls, transcribes and interprets tone, emotion, and context — revealing the &lsquo;why&rsquo; behind every answer, not just the words they use."
           graphic={
             <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-size-[1100px_650px] bg-position-[left_-38px_top_-73px] bg-no-repeat" />
           }
@@ -94,8 +94,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Speed"
-          title="Built for power users"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          title="Built for fast decisions"
+          description="Collect feedback, run analysis, and surface insights automatically. From a day&rsquo;s worth of survey data or a week of customer calls — clarity arrives instantly."
           graphic={
             <div className="flex size-full pt-10 pl-10">
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
@@ -105,15 +105,15 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title="Capture feedback from every channel"
+          description="From AI voice agents to embedded forms, Confyd connects with your customers wherever they are — gathering meaningful input through real conversations or simple clicks."
           graphic={<LogoCluster />}
           className="lg:col-span-2"
         />
         <BentoCard
           eyebrow="Limitless"
-          title="Sell globally"
-          description="Radiant helps you sell in locations currently under international embargo."
+          title="Scales with every conversation"
+          description="Whether it&rsquo;s ten forms or a thousand calls, Confyd adapts seamlessly — analyzing at scale while preserving the human nuance behind every voice."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
