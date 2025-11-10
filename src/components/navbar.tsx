@@ -12,9 +12,7 @@ import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
 
 const links = [
-  { href: '/pricing', label: 'Pricing' },
-  { href: '/company', label: 'Company' },
-  { href: '/login', label: 'Login' },
+  { href: 'https://app.confyd.co', label: 'Login' },
 ]
 
 function DesktopNav() {
