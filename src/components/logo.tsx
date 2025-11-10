@@ -8,9 +8,10 @@ export function Logo({ className }: { className?: string }) {
     <Image
       src="/logo.png"
       alt="Confyd Logo"
-      width={127}
-      height={34}
-      className={clsx(className)}
+      width={0}
+      height={0}
+      sizes="100vw"
+      className={clsx(className, 'w-auto h-auto')}
       priority
     />
   )
