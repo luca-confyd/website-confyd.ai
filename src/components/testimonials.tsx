@@ -15,7 +15,7 @@ import { useCallback, useLayoutEffect, useRef, useState } from 'react'
 import useMeasure, { type RectReadOnly } from 'react-use-measure'
 import { Container } from './container'
 import { Link } from './link'
-import { Heading, Subheading } from './text'
+import { Subheading } from './text'
 
 const testimonials = [
   {
@@ -193,9 +193,9 @@ export function Testimonials() {
       <Container>
         <div ref={setReferenceWindowRef}>
           <Subheading>What everyone is saying</Subheading>
-          <Heading as="h3" className="mt-2">
+          {/* <Heading as="h3" className="mt-2">
             Trusted by professionals.
-          </Heading>
+          </Heading> */}
         </div>
       </Container>
       <div

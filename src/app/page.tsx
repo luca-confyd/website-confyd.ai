@@ -10,7 +10,6 @@ import { LogoTimeline } from '@/components/logo-timeline'
 import { Map } from '@/components/map'
 import { Navbar } from '@/components/navbar'
 import { Screenshot } from '@/components/screenshot'
-import { Testimonials } from '@/components/testimonials'
 import { Heading, Subheading } from '@/components/text'
 import type { Metadata } from 'next'
 
@@ -53,7 +52,7 @@ function FeatureSection() {
         </Heading>
         <Screenshot
           width={1216}
-          height={768}
+
           src="/screenshots/app.png"
           className="mt-16 h-144 sm:h-auto sm:w-304"
         />
@@ -190,7 +189,7 @@ export default function Home() {
         </div>
         <DarkBentoSection />
       </main>
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Footer />
     </div>
   )
