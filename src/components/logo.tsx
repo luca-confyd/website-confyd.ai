@@ -8,7 +8,7 @@ export function Logo({ className }: { className?: string }) {
     <Image
       src="/logo.png"
       alt="Confyd Logo"
-      width={127}
+      width={145}
       height={34}
       className={className}
       priority
