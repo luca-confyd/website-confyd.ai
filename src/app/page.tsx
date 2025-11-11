@@ -32,10 +32,7 @@ function Hero() {
             Confyd listens, analyzes, and tells you what&rsquo;s really going on; the wins, the pain points, and the patterns that matter.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
-            <Button variant="secondary" href="/pricing">
-              See pricing
-            </Button>
+            <Button href="https://app.confyd.co">Get started</Button>
           </div>
         </div>
       </Container>
