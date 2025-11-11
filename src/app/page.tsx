@@ -52,9 +52,8 @@ function FeatureSection() {
         </Heading>
         <Screenshot
           width={1216}
-
           src="/screenshots/app.png"
-          className="mt-16 h-144 sm:h-auto sm:w-304"
+          className="mt-16 w-full h-auto sm:w-304"
         />
       </Container>
     </div>
@@ -69,7 +68,7 @@ function BentoSection() {
         Turn every voice into actionable insight.
       </Heading>
 
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6">
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
@@ -78,7 +77,7 @@ function BentoSection() {
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-size-[1000px_560px] bg-position-[left_-109px_top_-112px] bg-no-repeat" />
           }
           fade={['bottom']}
-          className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
+          className="hidden max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
         <BentoCard
           eyebrow="Analysis"
@@ -88,7 +87,7 @@ function BentoSection() {
             <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-size-[1100px_650px] bg-position-[left_-38px_top_-73px] bg-no-repeat" />
           }
           fade={['bottom']}
-          className="lg:col-span-3 lg:rounded-tr-4xl"
+          className="hidden lg:col-span-3 lg:rounded-tr-4xl"
         />
         <BentoCard
           eyebrow="Speed"
