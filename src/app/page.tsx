@@ -49,8 +49,13 @@ function FeatureSection() {
         </Heading>
         <Screenshot
           width={1216}
+          src="/screenshots/snap2.png"
+          className="mt-16 w-full h-auto sm:hidden"
+        />
+        <Screenshot
+          width={1216}
           src="/screenshots/app.png"
-          className="mt-16 w-full h-auto sm:w-304"
+          className="mt-16 hidden sm:block sm:w-304"
         />
       </Container>
     </div>
